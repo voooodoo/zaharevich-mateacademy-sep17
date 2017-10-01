@@ -1,0 +1,29 @@
+.green {
+  width:400px;
+  height:400px;
+  background-color: green;
+  margin:0 auto;
+  position:relative;
+}
+.orange {
+  width:100px;
+  height:100px;
+  background-color: orange;
+  position:absolute;
+}
+.one {
+  top: 0;
+  right: calc(100% + 20px);
+}
+.two {
+  top: 0;
+  left: calc(100% + 20px);
+}
+.three {
+  bottom: 0;
+  right: calc(100% + 20px);
+}
+.four {
+  bottom: 0;
+  left: calc(100% + 20px);
+}
