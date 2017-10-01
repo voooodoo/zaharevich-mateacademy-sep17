@@ -1,0 +1,38 @@
+* {
+  box-sizing:border-box;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.wrapper div {
+  background-color:#ccc;
+  border: 1px solid black;
+  margin: 1%;
+}
+.header {
+  min-height: 100px; 
+}
+.sidebar {
+  float:left;
+  width:32%;
+  min-height: 400px;
+}
+.content {
+  float: right;
+  width: 62%;
+  min-height: 400px;
+}
+div.clearfix {
+  border:none;
+  background: transparent;
+  margin:0;
+}
+.clearfix::after {
+  display:table;
+  content:"";
+  clear:both;
+}
+.footer {
+  height: 100px;
+}
