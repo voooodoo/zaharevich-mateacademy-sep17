@@ -47,6 +47,7 @@ body {
   padding: 15px;
   border-radius: 3px;
   text-align: center;
+  width: 300px;
 }
 a.form__link {
   text-decoration: none;
@@ -103,7 +104,6 @@ a.gl:hover {
   opacity: 0;
 }
 .checkBox:not(checked) + label {
-  display: block;
   position: relative; 
   padding-left: 20px; 
 }
@@ -121,7 +121,7 @@ a.gl:hover {
   background-image: url(img/check.png);
 }
 .form__input--btn {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
   border-radius: 3px;
   border:none;
@@ -131,12 +131,30 @@ a.gl:hover {
   color: rgb(255, 255, 255);
   font-weight: bold;
   outline:none;
-  padding: 15px 30px;
-  margin-right: 50px;
-  cursor: pointer
+  padding: 14px 28px;
+  cursor: pointer;
 }
 .form__input--btn:hover {
   background-color: #666666;
+}
+.form__input--btn-block {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.form__input--link {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+  text-decoration: underline;
+  align-self: center;
+  margin-top: 15px;
 }
 
 
