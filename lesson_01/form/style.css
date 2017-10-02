@@ -9,14 +9,17 @@ body {
 }
 .form__wrapper {
   max-width: 844px;
-  margin: 10px auto 0;
+  margin: 10px auto;
   background-color: rgb(255, 255, 255);
+  border-top: 2px solid #e62b1e;
   border-right: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
   box-shadow: 0px 2px 1.8px 0.2px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 /*=============header==============*/
 .form__header {
-  border-top: 2px solid #e62b1e;
+  
   padding: 30px;
 }
 .form__header h3 {
@@ -28,10 +31,17 @@ body {
 }
 /*=============content==================*/
 .form__content {
-  display:flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
   flex-wrap: wrap;
   background: #f3f3f3;
   padding: 40px 0;
+}
+.form__wrapper--content {
+  max-width: 300px;
 }
 .form__content--block-1 {
   flex-basis: 50%;
@@ -41,13 +51,13 @@ body {
   flex-basis: 50%; 
   padding: 0 60px;
   border-left: 1px solid #cfcfcf;
+  text-align: left;
 }
 .form__link {
   display: block;
   padding: 15px;
   border-radius: 3px;
   text-align: center;
-  width: 300px;
 }
 a.form__link {
   text-decoration: none;
@@ -86,13 +96,14 @@ a.gl:hover {
 
 .form__input--text,
 .form__input--password {
+  display: block;
+  width: 100%;
   border:1px solid rgb(221, 221, 221);
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
   margin-top: 10px;
   margin-bottom: 25px;
   padding: 12px;
-  width: 300px;
   outline:none;
 }
 /*============checkbox===========*/
@@ -184,4 +195,35 @@ a.gl:hover {
   font-family: "Arial";
   font-weight: bold;
 }
+/*==============media -queries========*/
+@media screen and (max-width: 768px) {
 
+.form__content {
+  padding-top:20px;
+  padding-bottom: 25px;
+}
+  
+.form__content--block-1 {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 0;
+}
+.form__content--block-2 {
+  flex-basis: 100%; 
+  padding: 0;
+  order:-1;
+  border-left: none; 
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form__wrapper--content {
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  width: 100%;
+  min-width: 250px;
+}
+}
