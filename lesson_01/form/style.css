@@ -213,12 +213,14 @@ a.gl:hover {
   padding: 0;
   order:-1;
   border-left: none; 
-  border-bottom: 1px solid #cfcfcf;
-  padding-bottom: 25px;
   margin-bottom: 25px;
   text-align: center;
 }
-
+.border-bottom 
+{
+  border-bottom: 1px solid #b9b9b9;
+  padding-bottom: 25px;
+}
 .form__wrapper--content {
   display: inline-block;
   max-width: 300px;
