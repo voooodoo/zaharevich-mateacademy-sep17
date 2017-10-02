@@ -151,11 +151,37 @@ a.gl:hover {
   font-size: 14px;
   font-family: "Arial";
   color: rgb(37, 37, 37);
-  font-weight: bold;
-  text-decoration: underline;
+  
+  text-decoration: none;
   align-self: center;
   margin-top: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid #444444;
+}
+.form__input--link:hover {
+  color: #656565;
+  border-color: #656565;
+}
+#form__error {
+  color:#dd5342;
+  border-color: #dd5342;
 }
 
+/*===============form-footer==========*/
+.form-footer {
+  padding: 30px;
+  text-align: center;
+}
 
+.form-footer p {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+}
+.form__footer--link {
+  color: #000;
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: bold;
+}
 
