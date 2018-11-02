@@ -1,0 +1,30 @@
+[{
+		"direction": "From",
+		"subject": "How Mark Zuckerberg Became Too Big to Fail",
+		"message": "Facebook has had a turbulent two years. But almost no one in tech thinks Mr. Zuckerberg, the social network’s chief executive, should step down from the company he built.",
+		"date": "1.11.2018"
+	},
+	{
+		"direction": "To",
+		"subject": "Luminopia Reimagines Role of VR in Healthcare",
+		"message": "Before leaving Harvard, the founding team was part of the Harvard Innovation Labs’ Venture Incubation Program for two terms. They went on to being awarded Silver at MassChallenge in 2016 and the year after were one of two winners at SXSW’s Impact Pediatric Health startup competition. Most recently, their co-founder and CEO, Dean Travers, was awarded the Thiel Fellowship.",
+		"date": "31.1.2018"
+	},
+	{
+		"direction": "From",
+		"subject": "How IoT Can Help With the Aging Population Problem",
+		"message": "The world faces a pressing question: how can we care for aging citizens who are only getting older as life expectancy (LE) increases? Statistics from the World Bank show a steady rise in the numbers of people over 65 since 1960. The challenge persists regardless of a country’s economic status or location. A study produced in part by the Census Bureau warns of the aging population nearly doubling in number by 2050, while the global LE at birth rises by almost eight years.",
+		"date": "1.08.2018"
+	},
+	{
+		"direction": "From",
+		"subject": "Apple’s ‘Recycled’ Macs Aren’t What They Seem",
+		"message": "The tech company announced Tuesday that it will build its new MacBook Air and Mac Mini computers using “100 percent recycled aluminum.” The move is part of a goal Apple set in 2017 to use only renewable or recycled materials in its products. While shifting to recycled aluminum is a step in the right direction (mining bauxite, the world’s primary aluminum source, is dangerous work and poisons the environment), it’s more of a PR win for Apple than a meaningful victory for the planet.",
+		"date": "5.06.2018"
+	}, {
+		"direction": "To",
+		"subject": "IoT Can Provide The Seeds For Africa’s Growth",
+		"message": "With Africa’s population set to increase from around 1.3-billion in 2018 to 1.7-billion by 2030, there can be little doubt that the challenges the continent already faces in respect of managing issues like food production and food supply security, not to mention access to clean drinking water, are only going to be exacerbated as we move forward.",
+		"date": "23.14.2018"
+	}
+]
